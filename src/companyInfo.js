@@ -87,7 +87,7 @@ We have a strong global presence with offices strategically located to serve our
 
 **Leadership Team:**
 - **Ramachandran S** - Chairman & CEO, Founder
-- **Srinivas Katta** - Chief Technology Officer
+- **Srinivas Katta** - Chief Technology Officer(CTO)
 - **Siddharth Ramachandran** - Executive Director & Head of Marketing
 - **Balaji Subramaniam** - Senior Vice President - Global Operations
 - **Venkatesan Srinivasan** - Vice President - Human Resources
@@ -96,10 +96,13 @@ We have a strong global presence with offices strategically located to serve our
 - **Nagaraj Govindarao** - Senior Vice President - Digital
 - **Srivatsan Tiruvallur Thattai** - Head - Digital Assurance
 - **Srinivasan Krishnamachari - Delivery Head of Malaysian Project
-- **Krishnakanth - Delivery Head
+- **Krishnakanth R - Delivery Head
 - **Manoj - Deivery HeaD
-- **Saravanan Saminathan - Manager of Seven Bridges Advisors(SBA) Team 
+- **Saravanan Saminathan - Manager of Seven Bridges Advisors(SBA) Team and also he is a technical lead.
 - **Kishore Kumar - Training Manager(R&D)
+- **Solai C Admin Head of Changepond Technologies.
+
+  ** Creator of this chatbot is Mr.Eswaran A Programmer Analyst Trainee in Seven Bridges Advisors Team(SBA).
 
 Changepond Technologies offers a comprehensive suite of Cloud Services designed to modernize IT environments and drive digital transformation. Their offerings include:
 
@@ -496,9 +499,43 @@ Customized Design Solutions: Tailored to meet specific client needs, ensuring hi
 Manufacturing Support: Creation of manufacturing drawings, bills of materials (BoMs), user and installation manuals, and product data sheets.
 By leveraging Changepond's expertise, companies in the consumer products sector can effectively manage design complexities, enhance product quality, and accelerate time-to-market, thereby maintaining a competitive edge in a dynamic industry landscape.
 
+Changepond Technologies is an IT services and solutions company that emphasizes a collaborative and learning-oriented work environment. Employee reviews highlight opportunities for skill development, particularly beneficial for freshers. However, some feedback points to areas needing improvement, such as work-life balance and compensation.
+
+Employee Feedback:
+
+Skill Development: Employees appreciate the exposure to various tools and technologies, which aids in professional growth. 
+
+
+Work Environment: The company fosters a friendly atmosphere, though some reviews mention high-pressure situations and extended working hours. 
+
+
+Compensation: There are concerns regarding salary competitiveness compared to industry standards. 
+
+
+Job Security: While the company offers opportunities for learning, some employees feel that job security could be enhanced. 
+
+
+Overall, Changepond Technologies provides a platform for gaining experience and developing skills, especially for those at the beginning of their careers. Potential candidates should consider factors such as work-life balance and compensation in line with their career goals.
+
+For more detailed insights, you can refer to employee reviews on platforms like Glassdoor and Indeed.
+
+- Website: [https://www.changepond.com](https://www.changepond.com)
+- Facebook: [facebook.com/changepond](https://facebook.com/changepond)
+- LinkedIn: [linkedin.com/company/changepond-technologies](https://linkedin.com/company/changepond-technologies)
+- Twitter: [twitter.com/changepond](https://twitter.com/changepond)
+
+Contact Numbers  and Mail id of ChangePond{
+
+- US: +1 609 945 3470       (salesusa@changepond.com)
+- UK: +44 (0)3330 113393      (salesuk@changepond.com)
+- India: +91 44 47480000 ,+91 44 47480003  (salesindia@changepond.com)
+- Kuala Lumpur :+60 3 2742 6387 ,+60 3 2742 6388 (saleskl@changepond.com)
+- Basel :+41 061 270 33 99 ,+41 061 270 33 98  (salesswiss@changepond.com) }
+
+
 Team Members of SBA : 
 
-Saravanan Saminathan - Technical lead at SBA 
+Saravanan Saminathan - Technical lead at SBA Project and also he manages the team of SBA
 Meena Ramachandiran - Senior Software Developer 
 Sathishkumar Pandian - Assoociate Technical Analyst
 Gokul S - Software Developer

@@ -7,18 +7,32 @@ import { companyInfo } from "./companyInfo";
 const App = () => {
   const chatBodyRef = useRef();
   const [showChatbot, setShowChatbot] = useState(false);
-  const [chatHistory, setChatHistory] = useState([
-    {
-      hideInChat: true,
-      role: "model",
-      text: companyInfo,
-    },
-  ]);
+
+  // Initialize chat history from session storage or default
+  const [chatHistory, setChatHistory] = useState(() => {
+    const savedChat = sessionStorage.getItem("chatHistory");
+    return savedChat
+      ? JSON.parse(savedChat)
+      : [
+          {
+            hideInChat: true,
+            role: "model",
+            text: companyInfo,
+          },
+        ];
+  });
 
   const generateBotResponse = async (history) => {
     // Helper function to update chat history
     const updateHistory = (text, isError = false) => {
-      setChatHistory((prev) => [...prev.filter((msg) => msg.text != "Thinking..."), { role: "model", text, isError }]);
+      setChatHistory((prev) => {
+        const updatedHistory = [
+          ...prev.filter((msg) => msg.text !== "Thinking..."),
+          { role: "model", text, isError },
+        ];
+        sessionStorage.setItem("chatHistory", JSON.stringify(updatedHistory)); // Save to session storage
+        return updatedHistory;
+      });
     };
 
     // Format chat history for API request
@@ -47,7 +61,9 @@ const App = () => {
 
   useEffect(() => {
     // Auto-scroll whenever chat history updates
-    chatBodyRef.current.scrollTo({ top: chatBodyRef.current.scrollHeight, behavior: "smooth" });
+    if (chatBodyRef.current) {
+      chatBodyRef.current.scrollTo({ top: chatBodyRef.current.scrollHeight, behavior: "smooth" });
+    }
   }, [chatHistory]);
 
   return (
@@ -74,7 +90,7 @@ const App = () => {
           <div className="message bot-message">
             <ChatbotIcon />
             <p className="message-text">
-              Hey there 👋 <br /> How can I help you today?
+              Hey there &#x1F60A;👋 <br /> How can I help you today?
             </p>
           </div>
 
